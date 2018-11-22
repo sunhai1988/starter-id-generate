@@ -1,8 +1,8 @@
 ###分#布式订单编号生成
 
-maven { url "http://gitlab.ybejia.com:8081/nexus/content/repositories/ybej_releases" }
+maven { url "" }
 
-compile group: 'com.ybejia',name: 'starter-id-generate',version: '1.0.0'
+compile group: 'top.quany',name: 'starter-id-generate',version: '1.0.0'
 
 配置生成服务器ID
 
