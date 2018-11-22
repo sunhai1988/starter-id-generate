@@ -14,8 +14,6 @@ dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.0.4.RELEASE'
 }
 
-
-def env = System.getProperty("env") ?: "local"
 def url = project.version.endsWith('-SNAPSHOT')  ? "http://gitlab.ybejia.com:8081/nexus/content/repositories/ybej_snapshots" : "http://gitlab.ybejia.com:8081/nexus/content/repositories/ybej_releases"
 uploadArchives {
     repositories {
