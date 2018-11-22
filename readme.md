@@ -1,4 +1,4 @@
-###分布式订单编号生成
+###分#布式订单编号生成
 
 maven { url "http://gitlab.ybejia.com:8081/nexus/content/repositories/ybej_releases" }
 
@@ -16,7 +16,7 @@ id:
   IdService idService;
   
   1.生成
-  long orderNo = idService.genId();
+  long orderNo = idService.genId(); ---->30204396163825855
   2.反解
   idService.expId(orderNo) 
     解析内容：
