@@ -2,7 +2,13 @@
 
 maven { url "http://gitlab.ybejia.com:8081/nexus/content/repositories/ybej_releases" }
 
- compile group: 'com.ybejia',name: 'starter-id-generate',version: '1.0.0'
+compile group: 'com.ybejia',name: 'starter-id-generate',version: '1.0.0'
+
+配置生成服务器ID
+
+id:
+  generate:
+    machine: 191
  
  在需要使用id生成的controller中
  
