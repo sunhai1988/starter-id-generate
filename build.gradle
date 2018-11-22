@@ -19,7 +19,7 @@ uploadArchives {
     repositories {
         mavenDeployer {
             def  configureAuth = {
-                authentication(userName: 'zhouhui', password: '12345')
+                authentication(userName: 'zhouhui', password: '****')
             }
             snapshotRepository(url: url, configureAuth)
             repository(url: url, configureAuth)
